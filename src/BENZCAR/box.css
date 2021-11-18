@@ -1,0 +1,21 @@
+.Imagebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+ 
+    
+}
+.box1{
+    margin-right: 20px;
+}
+.box2{
+    margin-right: 20px;
+}
+.box3{
+    margin-right: 20px;
+}
+.box1 img,.box2 img,.box3 img{
+    height: 124px;
+    width: 214px;
+}
