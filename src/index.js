@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-import Container  from './BENZCAR/Container.js';
+import Container from './Benz/container';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

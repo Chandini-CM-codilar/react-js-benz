@@ -1,0 +1,39 @@
+.nav-bar .logo{
+    color: white;
+    display: flex;
+    margin-bottom: 13px;
+    cursor: pointer;
+     padding-top: 20px;
+     padding-left: 40px;
+}
+.nav-bar .logo img{
+    width: 60px;
+    height: 60px;
+    
+}
+.nav-bar .text{
+    padding-left: 50px;
+    padding-top: 40px;
+    font-size: 17px;
+    font-family: lucida, Arial, Helvetica, sans-serif;
+}
+.nav-bar .logo:hover{
+    box-shadow: 2px blue;
+}
+@media screen and (max-width: 780px){
+    .nav-bar .logo{
+        margin-bottom: 13px;
+        
+    }
+    .nav-bar .logo img{
+        width: 40px;
+        height: 40px;
+     
+    }
+    .nav-bar .text{
+        padding-left: 30px;
+        padding-top: 40px;
+        font-size: 13px;
+        
+    }
+}
